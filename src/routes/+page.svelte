@@ -1,18 +1,15 @@
 
 <script>
-  $: clicked = false
-  const onClick = () => clicked = true
+  export let form;
 </script>
 
-{#if !clicked}
+{#if !form?.success}
 <form method="POST">
-  <button on:click={onClick} type="submit">GOING</button>
+  <button type="submit">GOING</button>
 </form>
-  {:else}
-  <h1>
-    Thank you!!
-  </h1>
- {/if}
+{:else}
+<h1>Thank You!</h1>
+{/if}
 
 
 <style>
