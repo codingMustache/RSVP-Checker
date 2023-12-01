@@ -15,8 +15,8 @@ export const actions = {
             color: 11730954,
             fields: [
               {
-                name: 'Email',
-                value: "going"
+                name: 'Going',
+                value: "🎉"
               }
             ]
           }
