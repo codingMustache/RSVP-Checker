@@ -2,7 +2,7 @@ import { WEBHOOK } from '$env/static/private'
 
 
 export const actions = {
-  default: async ()=>{
+  default: async () => {
 
     const res = await fetch(WEBHOOK, {
       headers: { 'Content-Type': 'application/json' },
