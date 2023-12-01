@@ -1,4 +1,4 @@
-import { WEBHOOK } from 'virtual:$env/static/private'
+import { WEBHOOK } from '$env/static/private'
 
 
 export const actions = {
